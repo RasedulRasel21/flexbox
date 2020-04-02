@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.container{
+			/*border: 5px solid #ffcc5c;*/
+			display: flex;
+			text-align: center;
+		}
+
+		.container div{
+			flex: 1;
+		}
+
+
+		.mainDiv{
+			border:5px solid #ffcc5c;
+			display: flex;
+			text-align: center;
+		}
+
+		.home{
+			flex: 1 1 200px;
+			/*flex-shrink: 1;
+			flex-basis: 0;*/
+		}
+
+		.contact{
+			flex: 1 1 200px;
+			/*flex-shrink: 1;
+			flex-basis: 0;*/
+		}
+        
+         .item1{
+         	flex:1;
+         	order: 2;
+         }
+         .item2{
+         	flex:1;
+         	order: 1;
+         }
+         .item3{
+         	flex:1;
+         	order: 3;
+         }
+
+
+.img-box-left-img {
+  background-image: url("image/left.png");
+  height: 268px; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img-box-mid-img {
+  flex: 2;
+  background-image: url("image/81492bcd28e67bdb6f8d2787111d3dea.png");
+  height: 268px; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img-box-right-img {
+  
+  background-image: url("image/right.png");
+  height: 268px; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+	</style>
+</head>
+<body>
+	<!-- <div class="container">
+		<div class="home">HOME</div>
+		<div class="home">CONTACT</div>
+		<div class="home">ABOUT US</div>
+
+
+	  <div class="img-box-left-img"></div>
+      <div class="img-box-mid-img"></div>
+      <div class="img-box-right-img"></div>
+
+	</div> -->
+
+
+	<div class="mainDiv">
+		<!--  <div class="home">HOME</div>
+		 <div class="contact">CONTACT</div> -->
+
+		 <div class="item1">HOME</div>
+		 <div class="item2">CONTACT</div>
+		 <div class="item3">LOGOUT</div>
+	</div>
+
+
+
+</body>
+</html>
